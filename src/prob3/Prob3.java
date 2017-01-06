@@ -15,6 +15,14 @@ public class Prob3 {
 	}
 
 	public static void replaceSpace(char c[]) {
+		for(int i=0;i<17;i++){
+		
+			if(c[i]==' '){
+				
+				c[i]=',';
+			
+		}
+		}
 	}
 
 	public static void printCharArray(char c[]) {
